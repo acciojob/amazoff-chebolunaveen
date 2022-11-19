@@ -10,9 +10,7 @@ public class DeliveryPartner {
         this.numberOfOrders = 0;
     }
 
-    public String getId() {
-        return id;
-    }
+
 
     public Integer getNumberOfOrders(){
         return numberOfOrders;
@@ -20,5 +18,9 @@ public class DeliveryPartner {
 
     public void setNumberOfOrders(Integer numberOfOrders) {
         this.numberOfOrders = numberOfOrders;
+    }
+
+    public String getId() {
+        return id;
     }
 }
